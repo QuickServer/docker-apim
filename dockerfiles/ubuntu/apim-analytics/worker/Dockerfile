@@ -17,7 +17,7 @@
 # ------------------------------------------------------------------------
 
 # set to product base image
-FROM wso2am-analytics-base:2.6.0
+FROM amreeshtyagi/am-analytics-base:2.6.0
 
 # copy init script to user home
 COPY --chown=wso2carbon:wso2 init.sh ${WORKING_DIRECTORY}/
